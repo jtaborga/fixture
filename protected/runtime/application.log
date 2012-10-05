@@ -1,0 +1,504 @@
+2012/10/04 15:01:22 [error] [exception.CException] exception 'CException' with message 'Propiedad "Eventos"."id_moneda" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(144): CComponent->__get('id_moneda')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2044): CActiveRecord->__get('id_moneda')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1402): CHtml::resolveValue(Object(Eventos), 'id_moneda')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(681): CHtml::activeDropDownList(Object(Eventos), 'id_moneda', Array, Array)
+#4 C:\xampp\htdocs\copia\protected\views\eventos\_form.php(119): CActiveForm->dropDownList(Object(Eventos), 'id_moneda', Array, Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\copia\protected\views\eventos\create.php(13): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\copia\protected\controllers\EventosController.php(143): CController->render('create', Array)
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): EventosController->actionCreate()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('create')
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('eventos/create')
+#25 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/copia/index.php/es/eventos/create
+HTTP_REFERER=http://localhost/copia/index.php/es/site/index
+---
+2012/10/04 15:02:51 [error] [exception.CException] exception 'CException' with message 'Propiedad "Eventos"."id_moneda" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(144): CComponent->__get('id_moneda')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2044): CActiveRecord->__get('id_moneda')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1402): CHtml::resolveValue(Object(Eventos), 'id_moneda')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(681): CHtml::activeDropDownList(Object(Eventos), 'id_moneda', Array, Array)
+#4 C:\xampp\htdocs\copia\protected\views\eventos\_form.php(119): CActiveForm->dropDownList(Object(Eventos), 'id_moneda', Array, Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\copia\protected\views\eventos\create.php(13): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\copia\protected\controllers\EventosController.php(143): CController->render('create', Array)
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): EventosController->actionCreate()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('create')
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('eventos/create')
+#25 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/copia/index.php/es/eventos/create
+HTTP_REFERER=http://localhost/copia/index.php/es/site/index
+---
+2012/10/04 15:05:38 [error] [php] Undefined property: Eventos::$id_moneda (C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php:672)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(269): CActiveFinder->lazyFind()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(142): Eventos->getRelated()
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2044): Eventos->__get()
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1402): resolveValue()
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(681): activeDropDownList()
+#5 C:\xampp\htdocs\copia\protected\views\eventos\_form.php(119): CActiveForm->dropDownList()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): EventosController->renderInternal()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(870): EventosController->renderFile()
+#9 C:\xampp\htdocs\copia\protected\views\eventos\create.php(13): EventosController->renderPartial()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require()
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): EventosController->renderInternal()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(870): EventosController->renderFile()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(783): EventosController->renderPartial()
+#14 C:\xampp\htdocs\copia\protected\controllers\EventosController.php(143): EventosController->render()
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): EventosController->actionCreate()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): EventosController->runAction()
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): EventosController->filterAccessControl()
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(266): EventosController->runActionWithFilters()
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): EventosController->run()
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#26 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\copia\index.php(13): CWebApplication->run()
+REQUEST_URI=/copia/index.php/es/eventos/create
+2012/10/04 15:10:18 [error] [php] Undefined variable: resultados (C:\xampp\htdocs\copia\protected\views\amigos\index.php:26)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(870): AmigosController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(783): AmigosController->renderPartial()
+#2 C:\xampp\htdocs\copia\protected\controllers\AmigosController.php(140): AmigosController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AmigosController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): AmigosController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): AmigosController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(266): AmigosController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): AmigosController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\copia\index.php(13): CWebApplication->run()
+REQUEST_URI=/copia/amigos/index
+2012/10/04 15:11:56 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\copia\protected\views\amigos\index.php:42)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(870): AmigosController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(783): AmigosController->renderPartial()
+#2 C:\xampp\htdocs\copia\protected\controllers\AmigosController.php(140): AmigosController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AmigosController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): AmigosController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): AmigosController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(266): AmigosController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): AmigosController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\copia\index.php(13): CWebApplication->run()
+REQUEST_URI=/copia/amigos/index
+2012/10/04 15:11:56 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\copia\protected\views\amigos\index.php:42)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(870): AmigosController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(783): AmigosController->renderPartial()
+#2 C:\xampp\htdocs\copia\protected\controllers\AmigosController.php(140): AmigosController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): AmigosController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): AmigosController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): AmigosController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(266): AmigosController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): AmigosController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\copia\index.php(13): CWebApplication->run()
+REQUEST_URI=/copia/amigos/index
+2012/10/04 15:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fotos/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('fotos/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/fotos/index
+HTTP_REFERER=http://localhost/copia/index.php/es/usuarios/index?user=3
+---
+2012/10/04 15:13:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "victorias/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('victorias/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/victorias/index
+HTTP_REFERER=http://localhost/copia/index.php/es/usuarios/index?user=3
+---
+2012/10/04 15:15:40 [error] [php] Undefined property: Eventos::$id_moneda (C:\xampp\htdocs\yii\framework\db\ar\CActiveFinder.php:672)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(269): CActiveFinder->lazyFind()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(142): Eventos->getRelated()
+#2 C:\xampp\htdocs\yii\framework\validators\CRequiredValidator.php(52): Eventos->__get()
+#3 C:\xampp\htdocs\yii\framework\validators\CValidator.php(197): CRequiredValidator->validateAttribute()
+#4 C:\xampp\htdocs\yii\framework\base\CModel.php(158): CRequiredValidator->validate()
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(786): Eventos->validate()
+#6 C:\xampp\htdocs\copia\protected\controllers\EventosController.php(137): Eventos->save()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): EventosController->actionCreate()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): EventosController->runAction()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): EventosController->filterAccessControl()
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(266): EventosController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): EventosController->run()
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\copia\index.php(13): CWebApplication->run()
+REQUEST_URI=/copia/index.php/es/eventos/create
+2012/09/30 15:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "victorias/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('victorias/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/victorias/index
+HTTP_REFERER=http://localhost/copia/index.php/es/usuarios/index?user=3
+---
+2012/09/30 15:21:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fotos/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('fotos/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/fotos/index
+HTTP_REFERER=http://localhost/copia/index.php/es/usuarios/index?user=3
+---
+2012/09/30 15:50:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/classic/assets/img/rainbow.gif"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/themes/classic/assets/img/rainbow.gif
+HTTP_REFERER=http://localhost/copia/estadisticas/index
+---
+2012/09/30 15:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/classic/assets/img/rainbow.gif"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/themes/classic/assets/img/rainbow.gif
+HTTP_REFERER=http://localhost/copia/estadisticas/index
+---
+2012/09/30 15:52:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fotos/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('fotos/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/fotos/index
+HTTP_REFERER=http://localhost/copia/index.php/es/usuarios/index?user=1
+---
+2012/09/30 16:24:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fecha' in 'where clause'. The SQL statement executed was: SELECT * FROM `resultados` `t` WHERE id_evento in (
+										SELECT id_evento
+										FROM eventos
+										WHERE estado = 1
+										)
+										
+										AND Fecha >= '2012-09-30 16:24:02'.
+2012/09/30 16:24:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fecha' in 'where clause'' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\copia\protected\controllers\ApuestasController.php(276): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): ApuestasController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('index')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('apuestas/index')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/copia/index.php/es/apuestas/index
+HTTP_REFERER=http://localhost/copia/index.php/es/site/index
+---
+2012/09/30 16:24:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fecha' in 'where clause'. The SQL statement executed was: SELECT * FROM `resultados` `t` WHERE id_evento in (
+										SELECT id_evento
+										FROM eventos
+										WHERE estado = 1
+										)
+										
+										AND Fecha >= '2012-09-30 16:24:04'.
+2012/09/30 16:24:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fecha' in 'where clause'' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\copia\protected\controllers\ApuestasController.php(276): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): ApuestasController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('index')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('apuestas/index')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/copia/index.php/es/apuestas/index
+HTTP_REFERER=http://localhost/copia/index.php/es/site/index
+---
+2012/10/01 10:27:09 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fixture.costos' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `costos`.
+2012/10/01 10:27:09 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "costos" definida en la clase active record "Costos" no se ha podido encontrar en la base de datos.' in C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Costos))
+#1 C:\xampp\htdocs\copia\protected\models\Costos.php(20): CActiveRecord::model('Costos')
+#2 C:\xampp\htdocs\copia\protected\views\eventos\_form.php(113): Costos::model()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\copia\protected\views\eventos\create.php(13): CController->renderPartial('_form', Array)
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#11 C:\xampp\htdocs\copia\protected\controllers\EventosController.php(143): CController->render('create', Array)
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): EventosController->actionCreate()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('create')
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('eventos/create')
+#23 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/copia/index.php/es/eventos/create
+HTTP_REFERER=http://localhost:8080/copia/index.php/es/site/index
+---
+2012/10/03 23:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/classic/assets/img/rainbow.gif"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/themes/classic/assets/img/rainbow.gif
+HTTP_REFERER=http://localhost/copia/themes/classic/assets/css/graph.css
+---
+2012/10/03 23:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fotos/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('fotos/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/fotos/index
+HTTP_REFERER=http://localhost/copia/index.php/es/usuarios/index?user=1
+---
+2012/10/03 23:32:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fotos/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('fotos/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/fotos/index
+HTTP_REFERER=http://localhost/copia/index.php/es/usuarios/index?user=1
+---
+2012/10/03 23:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "fotos/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('fotos/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/fotos/index
+HTTP_REFERER=http://localhost/copia/index.php/es/usuarios/index?user=1
+---
+2012/10/03 23:33:39 [error] [php] Undefined variable: apuestas (C:\xampp\htdocs\copia\protected\views\fotos\view.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(870): FotosController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(783): FotosController->renderPartial()
+#2 C:\xampp\htdocs\copia\protected\controllers\FotosController.php(15): FotosController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): FotosController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(287): FotosController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(266): FotosController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): FotosController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\copia\index.php(13): CWebApplication->run()
+REQUEST_URI=/copia/fotos/index
+2012/10/03 23:34:24 [error] [php] Undefined variable: fotos (C:\xampp\htdocs\copia\protected\views\fotos\view.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(870): FotosController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(783): FotosController->renderPartial()
+#2 C:\xampp\htdocs\copia\protected\controllers\FotosController.php(15): FotosController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): FotosController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(287): FotosController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(266): FotosController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): FotosController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\copia\index.php(13): CWebApplication->run()
+REQUEST_URI=/copia/fotos/index
+2012/10/03 23:34:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/classic/assets/img/rainbow.gif"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/themes/classic/assets/img/rainbow.gif
+HTTP_REFERER=http://localhost/copia/themes/classic/assets/css/graph.css
+---
+2012/10/03 23:36:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "victorias/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('victorias/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/victorias/index
+HTTP_REFERER=http://localhost/copia/index.php/es/usuarios/index?user=1
+---
+2012/10/03 23:37:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/classic/assets/img/rainbow.gif"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/themes/classic/assets/img/rainbow.gif
+HTTP_REFERER=http://localhost/copia/themes/classic/assets/css/graph.css
+---
+2012/10/03 23:37:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/classic/assets/img/rainbow.gif"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/themes/classic/assets/img/rainbow.gif
+HTTP_REFERER=http://localhost/copia/themes/classic/assets/css/graph.css
+---
+2012/10/03 23:42:59 [error] [exception.CException] exception 'CException' with message 'Propiedad "Usuarios"."telefono" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(144): CComponent->__get('telefono')
+#1 C:\xampp\htdocs\copia\protected\views\usuarios\view.php(55): CActiveRecord->__get('telefono')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\copia\protected\controllers\UsuariosController.php(84): CController->render('view', Array)
+#7 C:\xampp\htdocs\copia\protected\controllers\UsuariosController.php(299): UsuariosController->actionView('1')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): UsuariosController->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('index')
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('usuarios/index')
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/copia/index.php/es/usuarios/index?user=1
+HTTP_REFERER=http://localhost/copia/index.php/usuarios/update/1?lg=es
+---
+2012/10/04 22:19:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/classic/assets/img/rainbow.gif"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/themes/classic/assets/img/rainbow.gif
+HTTP_REFERER=http://localhost/copia/themes/classic/assets/css/graph.css
+---
+2012/10/04 22:19:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/classic/assets/img/rainbow.gif"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\copia\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/copia/themes/classic/assets/img/rainbow.gif
+HTTP_REFERER=http://localhost/copia/themes/classic/assets/css/graph.css
+---
+2012/10/05 00:03:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/classic/assets/img/rainbow.gif"' in C:\xampp\htdocs\fixture\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\fixture\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\fixture\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fixture\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fixture/themes/classic/assets/img/rainbow.gif
+HTTP_REFERER=http://localhost/fixture/themes/classic/assets/css/graph.css
+---
+2012/10/05 00:03:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/classic/assets/img/rainbow.gif"' in C:\xampp\htdocs\fixture\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\fixture\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\fixture\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fixture\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fixture/themes/classic/assets/img/rainbow.gif
+HTTP_REFERER=http://localhost/fixture/themes/classic/assets/css/graph.css
+---
+2012/10/05 00:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "themes/classic/assets/img/rainbow.gif"' in C:\xampp\htdocs\fixture\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\fixture\framework\web\CWebApplication.php(135): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\fixture\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fixture\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fixture/themes/classic/assets/img/rainbow.gif
+HTTP_REFERER=http://localhost/fixture/themes/classic/assets/css/graph.css
+---

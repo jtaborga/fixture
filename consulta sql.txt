@@ -1,0 +1,9 @@
+select id_evento, Nombre, Participante1, Participante2, Fecha, Estado, count(id_evento) id_usuarioC
+from eventos
+where Estado = 1
+and id_evento 
+in (select id_evento
+from apuestas
+where id_usuario = 1)
+and Fecha <= '2012-06-27 14:46:00'
+group by id_evento

@@ -1,0 +1,183 @@
+/*@font-face {
+    font-family: 'WebSymbolsRegular';
+    src: url('websymbols/websymbols-regular-webfont.eot');
+    src: url('websymbols/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('websymbols/websymbols-regular-webfont.woff') format('woff'),
+        url('websymbols/websymbols-regular-webfont.ttf') format('truetype'),
+        url('websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+#bannerprof{
+	position:relative;
+	left:100px;
+	*left:0px;
+	-moz-border-radius-bottomleft: 12px;
+	-moz-border-radius-bottomright: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	-webkit-border-bottom-left-radius: 12px;
+	-webkit-border-bottom-right-radius: 12px;
+	-moz-box-shadow:inset 3px 3px 8px #3d3d3d;
+	box-shadow: inset 3px 3px 8px #3d3d3d;
+	background: #ccc url('../images/1.jpg') no-repeat center -115px;
+	padding: 5px 5px;
+	top:38px;
+	width:800px;
+	height:170px;
+}
+
+.information{
+	text-align:center;
+	position:relative;
+	top:60px;
+}
+
+.socialicons{
+	position:relative;
+	right:-33%;
+	*right:-80%;
+	top:45px;
+	overflow:hidden;
+	width:90px;
+}
+
+.socialicons a{
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.rounded{
+	-webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+	position:relative;
+	left:-3px;
+	top:-3px;
+	/*z-index:-1;*/
+}
+
+.ca-menu{
+    padding:0;
+    margin:50px 38%;
+	text-align:center;
+    width: 150px;
+}
+.ca-menu li{
+    width: 150px;
+    height: 150px;    
+    overflow: hidden;
+    position: relative;
+    float:left;
+    margin-right: 4px;
+    -webkit-box-shadow:2px 3px 8px rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 3px 8px rgba(0,0,0,0.2);
+    box-shadow: 2px 3px 8px rgba(0,0,0,0.2);
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+    -webkit-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -o-transition: all 100ms linear;
+    -ms-transition: all 100ms linear;
+    transition: all 100ms linear;
+	border: 10px solid #f6f6f6;
+	background:transparent;
+}
+.ca-menu li:last-child{
+    margin-right: 0px;
+}
+.ca-menu li a{
+	webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+	border: 3px solid #999;
+    text-align: left;
+    width: 144px;
+    height: 144px;
+    display: block;
+    color: #333;
+    position: relative;
+	background:transparent;
+	/*top:-20px;*/
+}
+.ca-icon{
+    /*font-family: 'WebSymbolsRegular', cursive;
+    font-size: 40px;*/
+    color: #f6f6f6;
+    position: relative;
+    width: 145px;
+    height: 145px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    -webkit-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -o-transition: all 100ms linear;
+    -ms-transition: all 100ms linear;
+    transition: all 100ms linear;
+	z-index:9;
+}
+.ca-main{
+    font-size: 24px;
+    position: absolute;
+    top: 110px;
+    height: 80px;
+    width: 170px;
+    left: 50%;
+    margin-left: -85px;
+    opacity: 0.8;
+    text-align: center;
+}
+.ca-sub{
+    text-align:center;
+    color: #000;
+    font-size: 26px;
+    position: absolute;
+    height: 80px;
+    width: 170px;
+    left: 50%;
+    margin-left: -85px;
+    top: 110px;
+    opacity: 0.3;
+    -webkit-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -o-transition: all 100ms linear;
+    -ms-transition: all 100ms linear;
+    transition: all 100ms linear;
+}
+.ca-menu li:hover{
+    /*background: #f7f7f7;
+    border-color: #fff;*/
+    /*-webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);*/
+	/*-webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);*/
+	
+	-webkit-transform: translate(0px,-5px);
+    -moz-transform: translate(0px,-5px);
+    -o-transform: translate(0px,-5px);
+    -ms-transform: translate(0px,-5px);
+    transform: translate(0px,-5px);
+	
+	-moz-box-shadow:3px 3px 4px #3d3d3d;
+	box-shadow:3px 3px 4px #3d3d3d;
+}
+.ca-menu li:hover .ca-icon{
+    /*color: #555;*/
+    font-size: 60px;
+}
+.ca-menu li:hover .ca-main{
+    display: none;
+}
+.ca-menu li:hover .ca-sub{
+    opacity: 0.8;
+}
